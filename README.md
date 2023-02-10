@@ -1,1 +1,1 @@
-where am I?
+ script that changes the working directory 
