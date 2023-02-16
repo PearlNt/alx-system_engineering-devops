@@ -1,3 +1,3 @@
 #!/bin/bash
 grep -E "^#1:|root" /etc/passwd
-sed -n '/root/{N;p}' /etc/passwd
+grep -A3 root /etc/passwd
